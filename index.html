@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ICPC 2020 Practice</title>
+        <link rel="stylesheet" href="styles/app.css">
+    </head>
+    <body>
+        <h1>ICPC SEUSA Practice from Sunday, 2-28</h1>
+        <h3>Completed Problems</h3>
+
+        <ul class="main">
+            <div class="probContainer">
+                <li class="prob">FYI:</li>
+                <ul>
+                    <li>We want to find if a phone number is going to be routed to the directory information operator (if it starts with 555)</li>
+                    <li>Sample Input: 5551212</li>
+                    <li>Sample Output: 1</li>
+                    <li>Sample Input 2: 5519876</li>
+                    <li>Sample Output 2: 0</li>
+                </ul>
+            </div>
+
+            <div class="probContainer">
+                <li class="prob">Basketball One-on-One:</li>
+                <ul>
+                    <li>Who won the basketball one-on-one? We use the "win by 2" rule.</li>
+                    <li>Sample Input: A2B1A2B2A1A2A2A2</li>
+                    <li>Sample Output: A</li>
+                </ul>
+            </div>
+
+            <div class="probContainer">
+                <li class="prob">From A to B:</li>
+                <ul>
+                    <li>How many steps to get from A to B?</li>
+                    <li>If the current A value is even, divide it by 2, else, add 1.</li>
+                    <li>Sample Input: 103 27</li>
+                    <li>Sample Output: 4</li>
+                </ul>
+            </div>  
+
+            <div class="probContainer">
+                <li class="prob">Speeding:</li>
+                <ul>
+                    <li>Can we determine if a car was speeding if we do not have any radar guns?</li>
+                    <li>We are given how many pictures were taken, the distance from the first picture that it was taken, and their speed at the time.</li>
+                    <li>Use this information to determine the greatest integral speed the car was going at some point in mph.</li>
+                    <li>Sample Input:</li>
+                    <li>2</li>
+                    <li>0 0</li>
+                    <li>7 42</li>
+                    <li>Sample Output: 6</li>
+                </ul>
+            </div> 
+        </ul>
+
+        <div class="buttons">
+            <p>Click the buttons below to run each problem:</p>
+            <button id="fyi">FYI</button>
+            <button id="bball">Basketball One-on-One</button>
+            <button id="atob">A to B</button>
+            <button id="speed">Speeding</button>
+        </div>
+
+        <script src="scripts/combineAll.js"></script>
+    </body>
+</html>

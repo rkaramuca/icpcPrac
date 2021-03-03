@@ -1,0 +1,57 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100vw;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.prob {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.probContainer {
+    margin-bottom: 30px;
+}
+
+.buttons { 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons button {
+    height: 40px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.buttons > button:last-of-type {
+    margin-bottom: 0;
+}
+
+.buttons p {
+    font-weight: bold;
+}
